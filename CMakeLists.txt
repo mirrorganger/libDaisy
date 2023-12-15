@@ -204,6 +204,7 @@ add_library(${TARGET} STATIC
     Middlewares/Third_Party/FatFs/src/diskio.c
     Middlewares/Third_Party/FatFs/src/ff.c
     Middlewares/Third_Party/FatFs/src/ff_gen_drv.c
+    Middlewares/Third_Party/FatFs/src/option/ccsbcs.c
     core/startup_stm32h750xx.c
     )
 

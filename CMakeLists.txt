@@ -232,3 +232,7 @@ set_target_properties(${TARGET} PROPERTIES
   C_STANDARD 11
   C_STANDARD_REQUIRED
   )
+
+target_compile_definitions(${TARGET} PRIVATE
+    DATA_IN_D2_SRAM   
+)
